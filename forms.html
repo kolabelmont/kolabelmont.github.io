@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alien Abduction Order Form</title>
+	<link href="css/forms.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<section>
+			<h1>Alien Abduction Order Form</h1>
+			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+			<form>
+					<fieldset><legend>
+				<h2>Your contact information</h2></legend>
+
+				<label for="name"> name</label>
+					<input type="text" name="name" id="name"> 
+
+				<label for="Phone">Phone number <input type="phone" name="Phone" id="Phone" placeholder="Add Area Code"></label> 
+
+				<label for="email"> Email<input type="email" name="email" id="email"></label>
+					</fieldset>
+			<fieldset><legend>
+			<h2>About your abduction </h2></legend>
+			<p>Requested  date</p>
+			<label for="number"><p>How many people would you like abducted?</p>
+			<input type="number" name="gty" id="gty" min="1" max="10"></label>
+
+			<p>What type of UFO do you prefer?</p>
+				<ul>
+					<label>
+						<input type="radio" name="ufotype" value="classic"> Classic oval UFO
+					</label>
+					<label>
+						<input type="radio" name="ufotype" value="starwars">Star Wars-style Imperial cruiser
+					</label>
+					<label>	
+					<input type="radio" name="ufotype" value="Battlestar">Battlestar Galactica-style Viper
+					</label>
+					<label>
+					<input type="radio" name="ufotype" value="Borg-style">Borg-style cube
+					</label>
+				</ul> 
+			
+			
+			<label for="abtype"><p>What type of abduction experience do you want?</p>
+			</label>
+			
+			<select id="abtype">
+				
+					<option selected>select one</option>
+					<option value="tour"> Tour of the solar system</option>
+					
+						<option value="dinner">Alien dinner and discussion</option>
+					
+							<option value="dance">Alien dance lessons</option>
+					
+								<option value="whale">Whale watching</option>
+				
+			</select>
+			<label id="requests"> requests:</label>
+			<textarea id="Request" name="Request" ></textarea>
+			<Label>	
+			<input type="checkbox" value="sub" name="sub" id="sub" checked>Add Me to your Email!
+			</Label>
+			<button type="submit">Submit</button>
+		</form>		
+		</section>
+		
+	</fieldset>
+		<aside>
+			<h3>Our Location</h3>
+			<address>
+				Frontend Masters &middot;
+				60 South 6th Street &middot;
+				Suite 3625 &middot;
+				Minneapolis, MN 55402
+			</address>
+		</aside>
+	</div>
+</body>
+</html>
+
+
+
+
+
